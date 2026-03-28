@@ -17,6 +17,7 @@ The system acts as a strict, rule-bound Prerequisite & Course Planning Assistant
 
 ```bash
 pip install -r requirements.txt
+```bash
 
 2. Environment Variables
 
