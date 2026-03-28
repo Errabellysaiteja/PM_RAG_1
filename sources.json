@@ -1,0 +1,12 @@
+{
+  "academic_policies": [
+    {"url": "https://guide.berkeley.edu/academic-policies/", "note": "Academic policies, grading, repeats, credit limits"}
+  ],
+  "program_requirements": [
+    {"url": "https://guide.berkeley.edu/undergraduate/degree-programs/computer-science/", "note": "BA Computer Science major requirements"},
+    {"url": "https://guide.berkeley.edu/undergraduate/degree-programs/electrical-engineering-computer-sciences/", "note": "BS EECS major requirements"}
+  ],
+  "course_pages": [
+    {"url": "https://guide.berkeley.edu/courses/compsci/", "note": "Contains course descriptions and prerequisites for all Computer Science (COMPSCI) courses"}
+  ]
+}

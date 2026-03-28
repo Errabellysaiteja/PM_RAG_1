@@ -1,0 +1,4 @@
+chroma_db/
+__pycache__/
+.env
+nw_course.pdf
