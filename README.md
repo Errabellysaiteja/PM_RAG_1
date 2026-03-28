@@ -13,7 +13,7 @@ The system acts as a strict, rule-bound Prerequisite & Course Planning Assistant
 
 ## 🚀 Setup & Execution
 
-## 1. Install Dependencies
+1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
