@@ -19,8 +19,10 @@ The system acts as a strict, rule-bound Prerequisite & Course Planning Assistant
 pip install -r requirements.txt
 
 2. Environment Variables
-Export your Mistral API key to your environment:
+
+Linux / macOS
 export MISTRAL_API_KEY="your_api_key_here"
-(On Windows PowerShell, use $env:MISTRAL_API_KEY="your_api_key_here")
+Windows (PowerShell)
+$env:MISTRAL_API_KEY="your_api_key_here"
 
 
