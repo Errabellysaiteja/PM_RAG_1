@@ -20,11 +20,6 @@ pip install -r requirements.txt
 ```
 **2. Environment Variables**
 
-Linux / macOS
-```bash
-export MISTRAL_API_KEY="your_api_key_here"
-
-2. Environment Variables
 
 Linux / macOS
 export MISTRAL_API_KEY="your_api_key_here"
