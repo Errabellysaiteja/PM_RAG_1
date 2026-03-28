@@ -31,3 +31,16 @@ Windows (PowerShell)
 $env:MISTRAL_API_KEY="your_api_key_here"
 ```
 
+**3. Run the pipeline**
+```bash
+# Step 1: Parse the local PDF and generate structured JSON with virtual URLs
+python ingest_local_pdf.py
+
+# Step 2: Chunk the text, generate embeddings, and build the local Chroma database
+python build_index.py
+
+# Step 3: Launch the interactive Course Planning Assistant
+python rag_agent.py
+```
+
+
