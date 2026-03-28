@@ -20,9 +20,10 @@ pip install -r requirements.txt
 ```
 **2. Environment Variables**
 
-
+```bash
 Linux / macOS
 export MISTRAL_API_KEY="your_api_key_here"
+```bash
 Windows (PowerShell)
 $env:MISTRAL_API_KEY="your_api_key_here"
 
