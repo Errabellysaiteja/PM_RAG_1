@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # --- CONFIGURATION ---
 # Get your free key at: https://console.mistral.ai/
-os.environ["MISTRAL_API_KEY"] = "LShp1dJyl5Kz0xSpu3Opif7IMToPsndY"
+os.environ["MISTRAL_API_KEY"] = "Your API key here"
 
 def format_docs_with_citations(docs):
     """Formats retrieved chunks to include their metadata URLs for strict citation."""
