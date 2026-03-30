@@ -1,12 +1,8 @@
 {
-  "academic_policies": [
-    {"url": "https://guide.berkeley.edu/academic-policies/", "note": "Academic policies, grading, repeats, credit limits"}
-  ],
-  "program_requirements": [
-    {"url": "https://guide.berkeley.edu/undergraduate/degree-programs/computer-science/", "note": "BA Computer Science major requirements"},
-    {"url": "https://guide.berkeley.edu/undergraduate/degree-programs/electrical-engineering-computer-sciences/", "note": "BS EECS major requirements"}
-  ],
-  "course_pages": [
-    {"url": "https://guide.berkeley.edu/courses/compsci/", "note": "Contains course descriptions and prerequisites for all Computer Science (COMPSCI) courses"}
+  "nitw_document": [
+    {
+      "url": "https://www.nitw.ac.in/api/static/files/CSE_Curriculum_BTech.pdf",
+      "note": "Complete reference document containing academic regulations, program structure, and course details for NIT Warangal CSE"
+    }
   ]
 }
