@@ -17,7 +17,7 @@ def ingest_pdf_to_json(pdf_url):
     total_words = 0
     date_accessed = datetime.now().strftime("%Y-%m-%d")
     
-    # We will parse the first 120 pages to guarantee we crush the 30,000 word limit
+    # parse the first 120 pages 
     pages_to_extract = min(120, len(reader.pages))
     
     print(f"Extracting and structuring text from {pages_to_extract} pages...")
@@ -54,6 +54,6 @@ def ingest_pdf_to_json(pdf_url):
         print("⚠️ Word count is below 30,000. Try extracting more pages.")
 
 if __name__ == "__main__":
-    # A publicly available, text-heavy catalog PDF (Example: Stanford Bulletin)
+    
     CATALOG_URL = "https://web.stanford.edu/dept/registrar/bulletin_past/bulletin07-08/pdf/0708_Bulletin.pdf"
     ingest_pdf_to_json(CATALOG_URL)
