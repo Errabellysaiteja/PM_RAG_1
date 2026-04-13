@@ -1,6 +1,6 @@
-# AI/ML Engineer Intern Assessment: Course Planning Assistant
+# Course Planning Assistant
 
-This repository contains a Retrieval-Augmented Generation (RAG) system built for the Purple Merit Technologies AI/ML Engineer Intern Assessment (Option 1). 
+
 
 The system acts as a strict, rule-bound Prerequisite & Course Planning Assistant. It ingests an academic catalog (PDF), builds a local vector database, and uses the Mistral LLM to answer student queries. It features aggressive prompt-level guardrails to prevent hallucination, ensuring every claim is backed by a specific citation and safely abstaining when information is missing.
 
